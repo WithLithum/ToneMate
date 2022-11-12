@@ -3,11 +3,11 @@ namespace ToneMate;
 using NAudio.Wave;
 using NAudio.Wave.SampleProviders;
 
-public partial class Form1 : Form
+public partial class MainFrm : Form
 {
     private WaveOutEvent? playback;
 
-    public Form1()
+    public MainFrm()
     {
         InitializeComponent();
     }

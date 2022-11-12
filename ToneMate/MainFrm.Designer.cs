@@ -1,6 +1,6 @@
 ﻿namespace ToneMate;
 
-partial class Form1
+partial class MainFrm
 {
     /// <summary>
     ///  Required designer variable.
@@ -28,7 +28,7 @@ partial class Form1
     /// </summary>
     private void InitializeComponent()
     {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainFrm));
             this.groupTone = new System.Windows.Forms.GroupBox();
             this.radioPink = new System.Windows.Forms.RadioButton();
             this.radioSquare = new System.Windows.Forms.RadioButton();
